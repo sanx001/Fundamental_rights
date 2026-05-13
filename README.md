@@ -1,73 +1,134 @@
-# React + TypeScript + Vite
+# 🇮🇳 Fundamental Rights Interactive Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive web project based on the Fundamental Rights of India.
 
-Currently, two official plugins are available:
+## 📌 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This website presents the six Fundamental Rights of the Indian Constitution using modern UI, animations, and interactive sections instead of traditional presentation slides.
 
-## React Compiler
+It helps users understand constitutional rights in a more engaging, memorable, and visually immersive way.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* Hero Section with modern design
+* Introduction to Fundamental Rights
+* Detailed Rights Sections
+* Smooth Scroll Navigation
+* Scroll Progress Indicator
+* Mouse Glow Effects
+* Particle Background Animation
+* Dynamic Team Section
+* Professional Footer
+* Fully Responsive Design
+* Glassmorphism UI
+* Hover Effects and Scroll Animations
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📚 Fundamental Rights Covered
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 1. Right to Equality
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Equality before law and prohibition of discrimination.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 2. Right to Freedom
+
+Freedom of speech, movement, residence, profession, and assembly.
+
+### 3. Right Against Exploitation
+
+Protection against human trafficking, forced labor, and child labor.
+
+### 4. Right to Freedom of Religion
+
+Freedom to practice and promote religion.
+
+### 5. Cultural and Educational Rights
+
+Protection of minority culture, language, and educational institutions.
+
+### 6. Right to Constitutional Remedies
+
+Right to approach courts for protection of rights.
+
+## 🛠 Tech Stack
+
+Frontend:
+
+* React.js
+* TypeScript
+* Vite
+
+Styling:
+
+* Tailwind CSS
+* Glassmorphism Design
+
+Animations:
+
+* Framer Motion
+
+Icons:
+
+* Lucide React
+
+## 🚀 Installation
+
+```bash id="l7zq7f"
+git clone https://github.com/your-username/fundamental-rights-website.git
+cd fundamental-rights-website
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Project runs on:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash id="bmfmvf"
+http://localhost:5173
 ```
+
+## 👨‍💻 Developer
+
+### B SANJAY
+
+**Lead Developer, Designer & Project Presenter**
+
+Designed and developed the complete interactive website independently, including UI/UX design, animations, content structure, responsive layout, visual effects, and final presentation delivery.
+
+This project reflects creativity, technical implementation, and a modern approach to presenting the Fundamental Rights of India through an engaging digital platform.
+
+## 🎨 UI Highlights
+
+* Indian Flag Inspired Hover Effects 🇮🇳
+* Dynamic Glow Borders
+* Scroll Fade-In Animation
+* Floating Background Effects
+* Glass Cards with Shine Effect
+* Modern Professional Presentation Design
+
+## 📌 Future Improvements
+
+* Quiz Section
+* Constitution Timeline
+* Voice Narration
+* Dark/Light Mode
+* Hindi + English Language Support
+
+## 🤝 Contribution
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a new branch
+3. Make changes
+4. Submit Pull Request
+
+## 📜 License
+
+Created for educational and academic purposes.
+
+## ❤️ Final Note
+
+“Rights are protected not by laws alone, but by the awareness of citizens.”
+
+This project promotes constitutional awareness and helps users understand the value and importance of Fundamental Rights in India.
+
+# 🇮🇳 Jai Hind
