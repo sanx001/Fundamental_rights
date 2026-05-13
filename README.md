@@ -70,9 +70,17 @@ Icons:
 
 * Lucide React
 
+## 🔗 Project Link
+
+GitHub Repository:
+https://github.com/your-username/fundamental-rights-website
+
+Live Website (if deployed):
+https://your-live-website-link.com
+
 ## 🚀 Installation
 
-```bash id="l7zq7f"
+```bash id="j5u5q9"
 git clone https://github.com/your-username/fundamental-rights-website.git
 cd fundamental-rights-website
 npm install
@@ -81,7 +89,7 @@ npm run dev
 
 Project runs on:
 
-```bash id="bmfmvf"
+```bash id="g36n6r"
 http://localhost:5173
 ```
 
