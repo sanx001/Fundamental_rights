@@ -73,7 +73,7 @@ Icons:
 ## 🔗 Project Link
 
 GitHub Repository:
-https://github.com/your-username/fundamental-rights-website
+https://github.com/sanx001/Fundamental_rights
 
 Live Website (if deployed):
 https://your-live-website-link.com
